@@ -269,7 +269,16 @@ hr.hr {
 Buttons
 -----------------------------------------*/
 .btn {
-    padding: 10px 24px;
+    padding: 5px 12px;
+}
+.bt-entre-topo {
+    background: #31153e;
+    border: #31153e;
+    color: #fff !important;
+}
+
+.bt-entre-topo:hover {
+    color: #ffc107 !important;
 }
 
 .btn-1 {
