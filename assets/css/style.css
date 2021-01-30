@@ -295,6 +295,37 @@ Buttons
     border: 1px solid #fff;
     color:#fff;
 }
+
+.btn-group>.btn:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+group>.btn:not(:first-child) {
+    margin-left: -1px;
+}
+
+group>.btn:hover {
+    z-index: 1;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+
 /*----------------------------------------
 Preloader page
 ----------------------------------------*/
@@ -375,7 +406,7 @@ Navigation
 }
 .navbar-header .navbar-nav li a {
        color: #5c407b;
-    font-size: 15px;
+    font-size: 12px;
     padding: 15px 12px !important;
     font-weight: 500;
     line-height: 50px;
